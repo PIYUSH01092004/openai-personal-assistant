@@ -10,13 +10,13 @@ This repository serves as a foundational AI engineering portfolio project, demon
 
 * **Asynchronous Execution**: Utilizes JavaScript Fetch API to handle asynchronous `POST` requests to the backend, enabling real-time UI updates and state management (loading indicators) without page reloads[cite: 8].
 * **Robust AI Integration**: Engineered around the OpenAI SDK (`client.chat.completions.create`) utilizing the `gpt-4o` foundation model[cite: 7].
-* **System Prompt Engineering**: Implements structured system-level conditioning (`"Act like a powerful personal assistant"`) to govern model persona, tone, and response constraints[cite: 7].
+* **System Prompt Engineering**: Implements structured system-level conditioning (`"Act like a powerful personal assistant"`) to govern model personal, tone, and response constraints[cite: 7].
 * **Production Security**: Implements strict decoupling of configuration from source code using `python-dotenv` to manage secrets locally, preventing sensitive API credential leaks[cite: 3, 7].
 * **Responsive UI/UX**: Designed a clean, minimalist front-end dashboard using standard semantic HTML5 and vanilla CSS3 featuring intuitive state transitions[cite: 8, 9].
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🛠️ Architecture:
 
 ### Backend
 - **Language**: Python
